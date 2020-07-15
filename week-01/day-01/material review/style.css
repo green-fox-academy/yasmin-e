@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+    background-image:;
+}
+
+.chartreuse{
+    background-color: chartreuse;
+}
+
+.coral{
+    background-color: coral;
+}
+
+
+.chartreuse.coral{
+    background-color: chartreuse;
+}
+
+
+main.chartreuse{
+    background-color: chartreuse;
+}
+
+#main{
+    background-color: blue;
+    color:wheat;
+    color:rgb(245,222,179);
+    color:#F5DEB3;
+    color:rgba(245,222,179,1);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    width: 200px;
+    height:200px;
+    box-sizing: border-box;
+}
+
