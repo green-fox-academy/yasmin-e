@@ -36,3 +36,14 @@ for (let i: number = 0; i < bookshelf.length; i++) {
     }
     console.log(`done:${i}`);
 }
+
+//Definition Array splice() changes the content of an array, adding new elements while removing old ones
+let myArray2: number[] = [];
+myArray2 = [2, -4, 6, -8, 10];
+//syntax --> myArray2.splice(index, howMany, [e1]);
+//index: index at which we start changing, howMany: a nbr indicating the nbr of old array e's to remove.
+//its return value: the removed array
+
+let removed: number[] = myArray2.splice(1, 3, 4, 6, 8);
+console.log(`I removed this ${removed}`);
+console.log(`from this ${myArray2} using splice()`);
