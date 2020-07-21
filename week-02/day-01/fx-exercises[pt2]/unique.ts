@@ -6,7 +6,7 @@ function unique (input: number[]) {
   return [...new Set(input)];
 };
 /*
-function uniqueWithLoop (input: number[]) {
+function uniqueWithLoop (ints-nput: number[]) {
    let result: number[] = [];
    // .forEach is for going through all the values of the arr
    input.forEach(function (number: number) {
@@ -23,4 +23,4 @@ function uniqueWithLoop (input: number[]) {
    return result;
 };*/
 
-unique(listofNum);
+console.log(unique(listofNum));
