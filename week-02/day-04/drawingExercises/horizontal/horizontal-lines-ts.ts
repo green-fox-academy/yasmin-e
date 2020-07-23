@@ -21,13 +21,13 @@ function getRndColor() {
 function singleLine(x: number, y:number) {
     ctx.beginPath();
     ctx.moveTo(x, y);
-    ctx.lineTo(50, y);
+    ctx.lineTo(x+50, y);
     ctx.strokeStyle = getRndColor();
     ctx.stroke();
 };
 
-for (let i: number = 0; i < 100; i++) {
-    let randomX: number = Math.floor(Math.random() * 600);
-    let randomY: number = Math.floor(Math.random() * 400);
+for (let i: number = 0; i < 150; i++) {
+    let randomX: number = Math.floor(Math.random() * (canvas.width-50));
+    let randomY: number = Math.floor(Math.random() * canvas.height);
     singleLine(randomX,  randomY);
 };

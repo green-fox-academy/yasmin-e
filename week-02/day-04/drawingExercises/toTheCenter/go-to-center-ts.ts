@@ -25,8 +25,8 @@ function toTheCenter (x: number, y: number) {
     ctx.stroke();
 };
 
-for (let i: number = 0; i < 510; i++) {
-    let random1: number = Math.floor(Math.random() * 600);
-    let random2: number = Math.floor(Math.random() * 400);
-    toTheCenter(random1,  random2);
+for (let i: number = 0; i < 20; i++) {
+    let randomX: number = Math.floor(Math.random() * canvas.width);
+    let randomY: number = Math.floor(Math.random() * canvas.height);
+    toTheCenter(randomX,  randomY);
 };
