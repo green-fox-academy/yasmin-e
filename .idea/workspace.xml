@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818a72b5-90b4-461d-aff9-8671ea2a5c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Yasmine.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/yasszmin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week-02/day-02/dataStructureExercises/personal-finance.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week-02/day-04/drawingExercises/lineInTheMiddle/line-in-the-middle-ts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week-02/day-04/drawingExercises/lineInTheMiddle/line-in-the-middle-ts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Yasmine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Yasmine.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,21 +15,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/horizontal/horizontal-lines-ts.ts">
+        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/checkerboard-ts.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/horizontal/ts.html">
+        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/function-to-center-ts.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/ts.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/ts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -48,8 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/week-02/day-04/containerExample.html" />
-        <option value="$PROJECT_DIR$/week-02/day-04/drawingReview.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/canvasExample.html" />
         <option value="$PROJECT_DIR$/week-02/day-04/canvasExample.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/middleLinesTS.ts" />
@@ -62,11 +72,45 @@
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals-ts.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/toTheCenter/ts.html" />
-        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/toTheCenter/go-to-center-ts.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/lineInTheMiddle/line-in-the-middle-ts.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals/diagonals-ts.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/horizontal/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/toTheCenter/go-to-center-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/squareInTheCenter/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/squareInTheCenter/centered-square-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/fourRectangles/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/fourRectangles/four-rectangles-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/squarePositioning/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/squarePositioning/position-square-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/centeredBoxes/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/centeredBoxes/center-box-function-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/rainbowBoxes/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/rainbowBoxes/rainbow-box-function-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/purpleSteps/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/purpleSteps3D/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/purpleSteps3D/purple-steps-3d-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/purpleSteps/purple-steps-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/function-to-center-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/connectTheDots/ts.html" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/connectTheDots/connect-the-dots-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/starryNight/ts.html" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/horizontal/horizontal-lines-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/starryNight/starry-night-ts.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-03/functionsSyntax.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOreview.txt" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/divide-by-zero.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-03/my-file.txt" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/print-each-line.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/count-lines.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/my-file.txt" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/single-line.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/multiple-lines.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/file1.txt" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/file2.txt" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/copy-file.ts" />
+        <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/checkerboard-ts.ts" />
       </list>
     </option>
   </component>
@@ -83,7 +127,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-15" />
-    <option name="width" value="867" />
+    <option name="width" value="945" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,11 +146,6 @@
             <path>
               <item name="yasszmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="yasszmin" type="462c0819:PsiDirectoryNode" />
-              <item name="week-01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yasszmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yasszmin" type="462c0819:PsiDirectoryNode" />
               <item name="week-02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -128,7 +167,15 @@
               <item name="week-02" type="462c0819:PsiDirectoryNode" />
               <item name="day-04" type="462c0819:PsiDirectoryNode" />
               <item name="drawingExercises" type="462c0819:PsiDirectoryNode" />
-              <item name="horizontal" type="462c0819:PsiDirectoryNode" />
+              <item name="checkerboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yasszmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yasszmin" type="462c0819:PsiDirectoryNode" />
+              <item name="week-02" type="462c0819:PsiDirectoryNode" />
+              <item name="day-04" type="462c0819:PsiDirectoryNode" />
+              <item name="drawingExercises" type="462c0819:PsiDirectoryNode" />
+              <item name="functionToCenter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,12 +227,13 @@
       <updated>1595484191187</updated>
       <workItem from="1595484199817" duration="10866000" />
       <workItem from="1595502817760" duration="55000" />
-      <workItem from="1595503292313" duration="4082000" />
+      <workItem from="1595503292313" duration="21600000" />
+      <workItem from="1595579225705" duration="9973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15003000" />
+    <option name="totallyTimeSpent" value="42494000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -197,23 +245,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="0" width="693" height="872" extended-state="0" />
+    <frame x="-12" y="0" width="756" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.8460366" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.8428373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32947975" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32837838" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -224,39 +272,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week-01/day-01/cssReview.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/containerExample.html" />
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingReview.ts" />
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/canvasExample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/canvasExample.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/line-in-the-middle-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/colored-box-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/colored-box-ts.ts" />
     <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/coloredBox/ts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -264,41 +280,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/ts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/toTheCenter/ts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/toTheCenter/go-to-center-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/lineInTheMiddle/line-in-the-middle-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals-ts.ts" />
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/ts.html" />
     <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/lineInTheMiddle/ts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -313,13 +296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals/diagonals-ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/coloredBox/colored-box-ts.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -329,15 +305,324 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/horizontal/ts.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/toTheCenter/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="3152" column="61" selection-start-line="3152" selection-start-column="4" selection-end-line="3152" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/squareInTheCenter/centered-square-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/squareInTheCenter/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/fourRectangles/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/squarePositioning/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/centeredBoxes/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-01/day-04/arraysExercises/matrix.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/rainbowBoxes/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/purpleSteps3D/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/purpleSteps3D/purple-steps-3d-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/purpleSteps/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/purpleSteps/purple-steps-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="10" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/fourRectangles/four-rectangles-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/connectTheDots/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/starryNight/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/functionsSyntax.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/my-file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/print-each-line.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/divide-by-zero.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/single-line.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/count-lines.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.core.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="440" column="33" selection-start-line="440" selection-start-column="27" selection-end-line="440" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="474" column="4" selection-start-line="474" selection-start-column="4" selection-end-line="474" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/my-file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/multiple-lines.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/file2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/copy-file.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOreview.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/starryNight/starry-night-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/centeredBoxes/center-box-function-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="30" lean-forward="true" selection-start-line="26" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals/diagonals-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/connectTheDots/connect-the-dots-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/squarePositioning/position-square-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/toTheCenter/go-to-center-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/rainbowBoxes/rainbow-box-function-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/lineInTheMiddle/line-in-the-middle-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="9" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/horizontal/horizontal-lines-ts.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="403">
+          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/function-to-center-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/checkerboard-ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
