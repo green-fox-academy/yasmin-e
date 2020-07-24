@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818a72b5-90b4-461d-aff9-8671ea2a5c17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Yasmine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Yasmine.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/day-03/fileIOexercises/copy-file.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/day-03/fileIOexercises/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/day-03/fileIOexercises/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/day-03/fileIOexercises/multiple-lines.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/day-03/fileIOexercises/my-file.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,37 +20,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/checkerboard-ts.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/function-to-center-ts.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/ts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/ts.html">
+        <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/decryptDoubled/doubled.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/decryptDoubled/duplicated-chars.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -60,8 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/week-02/day-04/canvasExample.html" />
-        <option value="$PROJECT_DIR$/week-02/day-04/canvasExample.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/middleLinesTS.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/middleLine.html" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/line-in-the-middle-ts.ts" />
@@ -111,17 +97,8 @@
         <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/file2.txt" />
         <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/copy-file.ts" />
         <option value="$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/checkerboard-ts.ts" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/yasszmin.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/dictionaries/Yasmine.xml" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/decryptDoubled/duplicated-chars.txt" />
+        <option value="$PROJECT_DIR$/week-02/day-03/fileIOexercises/decryptDoubled/doubled.ts" />
       </list>
     </option>
   </component>
@@ -152,30 +129,22 @@
               <item name="yasszmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="yasszmin" type="462c0819:PsiDirectoryNode" />
               <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-04" type="462c0819:PsiDirectoryNode" />
+              <item name="day-03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yasszmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="yasszmin" type="462c0819:PsiDirectoryNode" />
               <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-04" type="462c0819:PsiDirectoryNode" />
-              <item name="drawingExercises" type="462c0819:PsiDirectoryNode" />
+              <item name="day-03" type="462c0819:PsiDirectoryNode" />
+              <item name="fileIOexercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yasszmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="yasszmin" type="462c0819:PsiDirectoryNode" />
               <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-04" type="462c0819:PsiDirectoryNode" />
-              <item name="drawingExercises" type="462c0819:PsiDirectoryNode" />
-              <item name="checkerboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yasszmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yasszmin" type="462c0819:PsiDirectoryNode" />
-              <item name="week-02" type="462c0819:PsiDirectoryNode" />
-              <item name="day-04" type="462c0819:PsiDirectoryNode" />
-              <item name="drawingExercises" type="462c0819:PsiDirectoryNode" />
-              <item name="functionToCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="day-03" type="462c0819:PsiDirectoryNode" />
+              <item name="fileIOexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="decryptDoubled" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +157,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week-02/day-05/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -199,6 +168,9 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yasmine\greenfox\yasszmin\week-02\day-05\demo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Yasmine\greenfox\yasszmin\week-02\day-04\drawingExercises" />
     </key>
@@ -228,12 +200,12 @@
       <workItem from="1595484199817" duration="10866000" />
       <workItem from="1595502817760" duration="55000" />
       <workItem from="1595503292313" duration="21600000" />
-      <workItem from="1595579225705" duration="9973000" />
+      <workItem from="1595579225705" duration="12127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42494000" />
+    <option name="totallyTimeSpent" value="44648000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -248,7 +220,7 @@
     <frame x="-12" y="0" width="756" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.8428373" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04172462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -260,8 +232,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32947975" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32837838" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32702702" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -272,16 +244,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/colored-box-ts.ts" />
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/coloredBox/ts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals-ts.ts" />
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/ts.html" />
     <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/lineInTheMiddle/ts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -487,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/my-file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/multiple-lines.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -549,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/ts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/diagonals/diagonals-ts.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -605,10 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/ts.html">
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/checkerboard-ts.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -619,10 +567,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/checkerboard-ts.ts">
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/functionToCenter/ts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-04/drawingExercises/checkerboard/ts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/my-file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-05/demo/functionToCenterForDemo/ts.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-05/demo/checkerboardForDemo/ts.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/decryptDoubled/duplicated-chars.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="64" lean-forward="true" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week-02/day-03/fileIOexercises/decryptDoubled/doubled.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
