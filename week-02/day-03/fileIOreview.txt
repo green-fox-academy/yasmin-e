@@ -1,0 +1,112 @@
+ERRORS
+
+- What is the difference between compile time errors and runtime errors?
+    Compiletime rises when the computer builds your application.
+    Runtime error rises when the code is executed.
+
+- Is syntax error a runtime error? Why?
+    Nope, it means the computer doesn't understand your code.
+
+- Is semantic error a runtime error? Why?
+    Yes it means something went wrong in your program logic but syntactically it
+    is correct. Eg, you want to use a variable which has never got any value.
+
+- Is syntax error runtime or compile time error in TypeScript? Why?
+    Kind of compile time. There is no compilation in TypeScript, it is called
+    transpilation.
+
+- Is syntax error runtime or compile time error in JavaScript? Why?
+    It is a hard question.
+    From the programmers point of view it is, since the error occurs during the
+    code execution. On the other hand the JIT compiler continuously compiles the
+    code, so from the compiler's point of view it is a compile time error.
+
+EXCEPTION HANDLING
+
+- What are the Exceptions?
+    Runtime errors. In JavaScript/TypeScript we call them Errors.
+
+- What kind of errors do we have in JavaScript/TypeScript?
+    The most commons are SyntaxError, ReferenceError and TypeError.
+    But you will be able to define your own types of Errors.
+
+- Can I throw exceptions/errors?
+    Yes, you can rise errors with the throw keyword.
+
+- Can I handle these exceptions?
+    Not all of them. Eg out of memory or stack trace error cannot be handled.
+    The others can be caught with try{} catch{} finally{} blocks.
+
+- What is the try block used for?
+    Any error, which was thrown in this block or in any function called from
+    this block, can be handled in the preceding catch block
+
+- What is the catch block used for?
+    You can handle the caught error. Eg, print something to the console. Create
+    logs, notify the user, etc...
+
+- Can I handle different kind of errors?
+    You may only have one catch clause which handles all types of errors, and use if statements inside of that catch block to distinguish between the error types. There is also a non-standard conditional catch statement: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch#Conditional_catch_clauses
+
+- What is the point of the finally block?
+    The finally block executed anyway, if an exception has been caught if not,
+    even if you don't have any catch block at all. You can use it to free
+    resources, close files or even send a log to a server.
+
+- Is it executed even if I return from the try block?
+    Yes, it is. It will be executed right after the return but before the
+    control have been given back to the callee.
+
+FILE IO
+
+- What is the File System?
+    A filesystem is the methods and data structures that an operating system
+    uses to keep track of files on a disk; that is, the way the files are
+    organized on the disk
+
+- What is a file path?
+    The route where the given file can be found. You can look at the file system
+    as a tree upside down. Each directory is a new branch and the leaves are the
+    files.
+
+- What is the difference between relative and absolute path?
+    Absolute goes from the route of the tree, relative goes from your current
+    position.
+
+- What is character encoding?
+    Of course our files are stored on the disk as 0's and 1's. The computer must
+    transform our letters into their more and more abstract representations.
+    Which will produce something understandable to the computer. This
+    transformation is the encoding.
+
+- What is UTF-8?
+    We have different character encodings, they are evolving of course. UTF-8 is
+    currently the most popular on the World Wide Web.
+    ASCII is also quite common.
+
+- What are file permissions?
+    Each file has an owner and of course it cannot be read or modified by
+    anybody:
+      r - read,
+      w - write,
+      x - execute
+    These permissions can be defined for the owner, groups and anybody.
+
+- What is the `fs` module in Node?
+    The fs module provides an API for interacting with the file system
+
+- How to read file content?
+    readFileSync(path[, options])
+    If the encoding option is specified then this function returns a string.
+    Otherwise it returns a buffer.
+
+- How to write a file?
+    writeFileSync(file, data[, options])
+
+- How can I append something to a file?
+    - read the file
+    - append something to the content
+    - write it back
+
+- What happens if a file not found?
+    An error will be thrown, must be handled in a try catch block.
