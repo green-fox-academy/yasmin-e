@@ -49,34 +49,13 @@ let diceSet = new DiceSet();
   diceSet.reroll(4);
   console.log(diceSet.getCurrent());
 
-/*  for (let i: number = 0; i<this.dice; i++) {
-    diceSet.roll();
-    if(diceSet.dice.every(function (dice, index) {
-        dice[index] = 6;    })) {
-            break;
-            console.log(diceSet.getCurrent);
-        }
-    else {
-        diceSet.reroll();
-    }
-};*/
-/*
-for (let i: number = 0; i<this.dice; i++) {
-    diceSet.dice.forEach(function (value, index, dice) {
-        if (dice.every(function (value, index){value[index] = 6})) {
-            console.log(diceSet.getCurrent());
-        }
-        else {
-            diceSet.reroll();
-        }
-    })
-};
-*/
-for (let i: number = 0; i<this.dice; i++) {
-    diceSet.roll()
-    const diceUnit6 = (currentValue) => currentValue = 6;
+
+while (true) {
+    const diceUnit6 = (element) => element == 6;
     if (diceSet.dice.every(diceUnit6) == true) {
         console.log(diceSet.dice);
+        console.log('success');
+        break;
     }
     else {
         diceSet.reroll();
