@@ -16,20 +16,21 @@ class Animal {
         this.thirst = thirst;
     }
 
-    eat(): void {
+    eat() {
         this.hunger -= 1;
     }
 
-    drink(): void {
+    drink() {
         this.thirst -= 1;
     }
 
-    play(): void {
+    play() {
         this.thirst += 1;
         this.hunger += 1;
     }
 }
-
-let Zebra = new Animal(12, 3);
-console.log(Zebra.drink());
-console.log(Zebra.play());
+const Zebra = new Animal();
+Zebra.play();
+console.log(Zebra.thirst);
+Zebra.drink();
+console.log(Zebra.thirst);
