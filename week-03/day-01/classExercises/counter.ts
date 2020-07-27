@@ -9,9 +9,11 @@
 
 class Counter {
     integer: number;
+    init: number;
 
-    constructor(integer: number = 0) {
+    constructor(integer: number = 0, init: number = 0) {
         this.integer = integer;
+        this.init = init;
     }
 
     add(number?: number) {
@@ -28,7 +30,7 @@ class Counter {
     }
 
     reset() {
-        this.integer = 0;
+        this.integer = this.init;
     }
 }
 const FiveHundred = new Counter(500);
