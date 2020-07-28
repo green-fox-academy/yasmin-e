@@ -13,20 +13,20 @@ calculate score: Number of Alive pirates in the crew - Number of consumed rum by
 The loser crew has a random number of losses (deaths).
 The winner captain and crew has a party, including a random number of rum :)    */
 
-import Pirate from "./pirate";
+import Pirate from './pirate';
 
 class Ship {
   private crew: Pirate[];
 
   private captain: Pirate;
 
-  constructor(crew: Pirate[] = [], captain: Pirate) {
+  constructor(crew?: Pirate[] = [], captain?: Pirate) {
     this.crew = crew;
     this.captain = captain;
   }
 
   fillShip() {
     this.captain = new Pirate('Captain');
-    this.crew = 
   }
 }
+const Hangover = new Ship();
