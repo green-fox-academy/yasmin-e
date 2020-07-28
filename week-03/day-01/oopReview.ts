@@ -32,13 +32,13 @@
     object in the constructor.
 */
 
-class Car {
+class Carr {
     public brandName: string;
     constructor(brandName: string) {
         this.brandName = brandName;
     }
 }
-const myCar = new Car('Volkswagen');
+const myCar = new Carr('Volkswagen');
 // 'this.name' is a parameter and 'name' is the property. 
 //  They don't have to be called the same but it's better practice to do so.
 //  add 'public' even though it's default for PROPS but not for METHODS (get, set, etc).
