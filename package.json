@@ -1,0 +1,35 @@
+{
+  "name": "yasszmin",
+  "version": "1.0.0",
+  "description": "<h1>hellÜ i'm yasmine</h1>\r <p>I'm using this space to track and share my progress as I flourish into a Junior Web Developer. Feel free to look around.</p>",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/green-fox-academy/yasszmin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/green-fox-academy/yasszmin/issues"
+  },
+  "homepage": "https://github.com/green-fox-academy/yasszmin#readme"
+}
