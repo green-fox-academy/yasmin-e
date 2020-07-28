@@ -1,4 +1,3 @@
-'use strict';
 /* Create an Animal class
     Every animal has a hunger value, which is a whole number
     Every animal has a thirst value, which is a whole number
@@ -7,25 +6,26 @@
     Every animal can drink() which decreases their thirst by one
     Every animal can play() which increases both by one */
 
-export class Animal {
-    hunger: number;
-    thirst: number;
+export default class Animal {
+  hunger: number;
 
-    constructor (hunger: number = 50, thirst: number = 50) {
-        this.hunger = hunger;
-        this.thirst = thirst;
-    }
+  thirst: number;
 
-    eat() {
-        this.hunger -= 1;
-    }
+  constructor(hunger = 50, thirst = 50) {
+    this.hunger = hunger;
+    this.thirst = thirst;
+  }
 
-    drink() {
-        this.thirst -= 1;
-    }
+  eat(): void {
+    this.hunger -= 1;
+  }
 
-    play() {
-        this.thirst += 1;
-        this.hunger += 1;
-    }
+  drink(): void {
+    this.thirst -= 1;
+  }
+
+  play(): void {
+    this.thirst += 1;
+    this.hunger += 1;
+  }
 }
