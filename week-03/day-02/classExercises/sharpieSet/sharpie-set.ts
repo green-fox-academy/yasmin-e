@@ -7,39 +7,38 @@ countUsable() -> sharpie is usable if it has ink in it
 removeTrash() -> removes all unusable sharpies*/
 
 class SharpieSet {
-
-    main(): Sharpie[] {
-        let mySharpieSet: Sharpie[] = [
-            new Sharpie('Red', 2, 10),
-            new Sharpie('Yellow', 0.7, 12),
-            new Sharpie('Green', 1.5, 0),
-            new Sharpie('Black', 1.5, 0)
-        ];
-        return mySharpieSet;
+    sharpieSet : Sharpie[];
+    constructor(sharpieSet: Sharpie[] = []) {
+        this.sharpieSet = sharpieSet;
     }
 
-   countUsable(): number {
-       let AllSharpies = this.main();   
-       let UsableSharpies = AllSharpies.filter(function (sharpie) {
+   countUsable() {   
+       let UsableSharpies = this.sharpieSet.filter(function (sharpie) {
            if (sharpie.inkAmount !== 0) {
                 return sharpie;  
             }
         });
-        return UsableSharpies.length;
+        console.log(`There are ${UsableSharpies.length} usable Sharpies in this set.`);
     }
 
-   removeTrash(): Sharpie[] {
-    let AllSharpies = this.main();   
-    let UsableSharpies = AllSharpies.filter(function (sharpie) {
+   removeTrash() {   
+    let UsableSharpies = this.sharpieSet.filter(function (sharpie) {
         if (sharpie.inkAmount !== 0) {
             return sharpie;  
         }
     });
-    return UsableSharpies;
+    this.sharpieSet = UsableSharpies;
+    console.log(`All the unusable Sharpies have been removed.`)
     }
 }
 
-let SS = new SharpieSet();
-console.log(SS.main());
-console.log(SS.countUsable());
-console.log(SS.removeTrash());
+let SS = new SharpieSet([
+    new Sharpie('Red', 2, 10),
+    new Sharpie('Yellow', 0.7, 12),
+    new Sharpie('Green', 1.5, 0),
+    new Sharpie('Black', 1.5, 0)
+]);
+console.log(SS.sharpieSet);
+SS.countUsable();
+SS.removeTrash();
+console.log(SS.sharpieSet);
