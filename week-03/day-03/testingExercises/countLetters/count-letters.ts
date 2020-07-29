@@ -2,7 +2,7 @@
 and returns a dictionary with all letters in the string as keys,
 and numbers as values that shows how many occurrences there are.
 Create a test for that. */
-function countLetters(string: string) {
+export default function countLetters(string: string): unknown {
 // turning the string into an array 'stringArray'
   let stringArray = string.split('');
 
@@ -27,5 +27,3 @@ function countLetters(string: string) {
   // returning our object 'dictionary'
   return dictionary;
 }
-
-console.log(countLetters('yyy aaa'));
