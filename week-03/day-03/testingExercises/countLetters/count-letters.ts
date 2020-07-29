@@ -1,16 +1,17 @@
+/* eslint-disable max-len */
 /*  Write a function, that takes a string as an argument
 and returns a dictionary with all letters in the string as keys,
 and numbers as values that shows how many occurrences there are.
 Create a test for that. */
 export default function countLetters(string: string): unknown {
-// turning the string into an array 'stringArray'
+  // turning the string into an array 'stringArray'
   let stringArray = string.split('');
 
-  // creating a 'spaceArray' with splice that contains the spaces from our 'stringArray'
-  const spaceArray = stringArray.splice(stringArray.findIndex((value) => value === ' '), 1);
+  // creating an alphabetArray with all letters of the alphabet
+  const alphabetArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
-  // substracting spaceArray from stringArray with filter
-  stringArray = stringArray.filter((n) => !spaceArray.includes(n));
+  // filtering out all elements of stringArray that aren't letters
+  stringArray = stringArray.filter((element) => alphabetArray.includes(element));
 
   // creating an object 'dictionary'
   const dictionary = {};
@@ -27,3 +28,4 @@ export default function countLetters(string: string): unknown {
   // returning our object 'dictionary'
   return dictionary;
 }
+console.log(countLetters('!!!!!!!!yiooooooo spoooderman yoooo(((_\'"_'));
