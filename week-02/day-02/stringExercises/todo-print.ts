@@ -1,7 +1,3 @@
-'use strict';
-
-import { concat } from "./simple-replace";
-
 // Add "My todo:" to the beginning of the todoText
 // Add " - Download games" to the end of the todoText
 // Add " - Diablo" to the end of the todoText but with indention
@@ -13,7 +9,7 @@ import { concat } from "./simple-replace";
 //  - Download games
 //      - Diablo
 
-let todoText: string = ' - Buy milk\n';
+const todoText = ' - Buy milk\n';
 
 console.log(todoText);
 console.log('My todo:\n'.concat(todoText).concat(' - Download games\n\t').concat('- Diablo'));
