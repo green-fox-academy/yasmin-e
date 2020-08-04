@@ -12,7 +12,7 @@
 // * size should depend on a variable
 // ** Relax, a matrix is just like an array
 
-const size = 5;
+const size = 3;
 let Matrix: number[][] = [];
 const string1: any = ' 1';
 const string0: any = ' 0';
