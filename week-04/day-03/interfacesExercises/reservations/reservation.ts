@@ -1,7 +1,6 @@
 interface ReservationY {
   getDowBooking(): string;
   getCodeBooking(): string;
-  print(): void;
 }
 
 class Reservation implements ReservationY {
@@ -17,7 +16,7 @@ class Reservation implements ReservationY {
 
   getDowBooking(): string {
     const dowArr = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
-    this.dow = dowArr[Math.round(Math.random() * dowArr.length)];
+    this.dow = dowArr[Math.round(Math.random() * 5)];
     return this.dow;
   }
 
@@ -25,7 +24,7 @@ class Reservation implements ReservationY {
     const codeArr = 'A0B1C2D3E4FGHIJKL56789MNOPQRSTUVWXYZ'.split('');
     const code = [];
     for (let i = 0; i < 8; i += 1) {
-      code.push(codeArr[Math.round(Math.random() * codeArr.length)]);
+      code.push(codeArr[Math.round(Math.random() * 10)]);
     }
     this.code = code.join('');
     return this.code;
@@ -39,12 +38,26 @@ class Reservation implements ReservationY {
     console.log('This reservation is not booked yet.');
   }
 }
+// we can make reservations as a list of the interface
+const reservations: ReservationY[] = [];
 
-const myRes = new Reservation();
-myRes.print();
-const myRes1 = new Reservation();
-myRes1.print();
-const myRes2 = new Reservation(false);
-myRes2.print();
-const myRes3 = new Reservation();
-myRes3.print();
+for (let i = 0; i < 10; i += 1) {
+  reservations.push(new Reservation());
+}
+
+reservations.forEach((reservation) => {
+  if (reservation instanceof Reservation) {
+    reservation.print();
+  }
+});
+
+// or instances of the class
+const bookings: Reservation[] = [];
+
+for (let i = 0; i < 3; i += 1) {
+  bookings.push(new Reservation());
+}
+
+bookings.forEach((booking) => {
+  booking.print();
+});
