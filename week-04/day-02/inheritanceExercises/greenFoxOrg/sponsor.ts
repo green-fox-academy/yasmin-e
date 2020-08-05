@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 import Person from './person';
 
 export default class Sponsor extends Person {
@@ -20,7 +19,7 @@ export default class Sponsor extends Person {
     this.hiredStudents += 1;
   }
 
-  getGoal(): void {
+  static getGoal(): void {
     console.log('My goal is: Hire brilliant junior software developers.');
   }
 }

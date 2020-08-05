@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 export default class Person {
   protected name: string;
 
@@ -16,7 +15,7 @@ export default class Person {
     console.log(`Hi, I'm ${this.name}, a ${this.age} year old ${this.gender}.`);
   }
 
-  getGoal(): void {
+  static getGoal(): void {
     console.log('My goal is: Live for the moment!');
   }
 }

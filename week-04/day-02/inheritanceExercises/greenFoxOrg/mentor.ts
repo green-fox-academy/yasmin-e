@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 import Person from './person';
 
 export default class Mentor extends Person {

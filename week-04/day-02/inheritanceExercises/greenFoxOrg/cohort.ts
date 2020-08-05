@@ -1,6 +1,4 @@
-/* eslint-disable no-shadow */
 import Mentor from './mentor';
-
 import Student from './student';
 
 export default class Cohort {

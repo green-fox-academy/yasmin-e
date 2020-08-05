@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 import Person from './person';
 
 export default class Student extends Person {
@@ -12,7 +11,7 @@ export default class Student extends Person {
     this.skippedDays = skippedDays;
   }
 
-  getGoal(): void {
+  static getGoal(): void {
     console.log('My goal is: Be a junior software developer.');
   }
 
