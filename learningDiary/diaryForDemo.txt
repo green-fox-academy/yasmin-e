@@ -1,0 +1,30 @@
+This diary's purpose is to help me remember what happens during each week in order for my demos to be better documented.
+This diary starts at Week 4 of the Foundation phase. 
+
+03.08.2020 -- Monday/Hétfő: TRAINING + DOJO
+Before noon, we had a training about presentations. I enjoyed it a lot.
+The main things I got out from it: 
+- Not to stop the flow of a presentation to correct myself because it is more distracting to the audiance.
+- Keep a diary to make my demos more precise and less complicated to put together.
+- Use the same pattern for demos.
+- The elevator method: strong statement, 2 or 3 key messages and call to action.
+In the afternoon, we had the DOJO. I was not in the mood for coding since I thought we would have training all day and I had a hard time with teamwork.
+I think I will have to go back to the games and work on them some more but I think I'd rather do a non-visual algorithmic exercise because this was just confusing.
+
+04.03.2020 -- Tueseday/Kedd: INHERITANCE
+This was probably one of my favorite days at Greenfox. I feel very comfortable with classes and inheritance was a great building block to add.
+I didn't struggle at all, I loved the exercises and was able to finish all of them during the workshop which is usually hard for me because I give a lot of attention to each exercise.
+What I learned:
+- How to use inheritance to make a class branch going from the concept to its occurences
+- Using inheritance for 'is a' relationships vs implementing classes inside of other classes for 'has a' relationships
+
+05.03.2020 -- Wednesday/Szerda: ABSTRACTS AND INTERFACES
+Again, one of my best days regarding the material. No struggle at all, the exercises were quite easy and intuitive for me.
+I completely understand the 'is a' and 'has a' relationships.
+What I learned: 
+- How to use abstract classes (the concept) VS child classes (specific occurences)
+- How to use interfaces as a way of implementing methods to classes ('has a' relationships)
+
+06.03.2020 -- Thursday/Csütörtök: TODO APP
+Today, we started the day with a lightning talk about the History of Javascript (by Bogi), great presentation. 
+Made me want to learn more about the web culture and its history. (Podcast recommandation regarding the subject: CLI HEROES)
