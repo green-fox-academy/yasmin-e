@@ -11,20 +11,27 @@ The main things I got out from it:
 In the afternoon, we had the DOJO. I was not in the mood for coding since I thought we would have training all day and I had a hard time with teamwork.
 I think I will have to go back to the games and work on them some more but I think I'd rather do a non-visual algorithmic exercise because this was just confusing.
 
-04.03.2020 -- Tueseday/Kedd: INHERITANCE
+04.08.2020 -- Tueseday/Kedd: INHERITANCE
 This was probably one of my favorite days at Greenfox. I feel very comfortable with classes and inheritance was a great building block to add.
 I didn't struggle at all, I loved the exercises and was able to finish all of them during the workshop which is usually hard for me because I give a lot of attention to each exercise.
 What I learned:
 - How to use inheritance to make a class branch going from the concept to its occurences
 - Using inheritance for 'is a' relationships vs implementing classes inside of other classes for 'has a' relationships
 
-05.03.2020 -- Wednesday/Szerda: ABSTRACTS AND INTERFACES
+05.08.2020 -- Wednesday/Szerda: ABSTRACTS AND INTERFACES
 Again, one of my best days regarding the material. No struggle at all, the exercises were quite easy and intuitive for me.
 I completely understand the 'is a' and 'has a' relationships.
 What I learned: 
 - How to use abstract classes (the concept) VS child classes (specific occurences)
 - How to use interfaces as a way of implementing methods to classes ('has a' relationships)
 
-06.03.2020 -- Thursday/Csütörtök: TODO APP
+06.08.2020 -- Thursday/Csütörtök: TODO APP
 Today, we started the day with a lightning talk about the History of Javascript (by Bogi), great presentation. 
 Made me want to learn more about the web culture and its history. (Podcast recommandation regarding the subject: CLI HEROES)
+I spent most of the afternoon trying to figure out how to build a CLI app, tried some NPM packages such as Commander.
+It was harder than expected but I learned a lot about what's underneath the code and the JSON files.
+I eventually gave up and coded the tasks, leaving that part for tomorrow.
+I coded everything OOP style. 
+
+07.08.2020 -- Friday/Penték: TODO APP and demos
+I worked on my Demo in the morning, I think I'm starting to understand what it is supposed to be.
