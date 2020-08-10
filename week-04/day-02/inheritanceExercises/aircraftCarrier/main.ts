@@ -1,6 +1,6 @@
-import Carrier from "./carrier";
-import F16 from "./f16";
-import F35 from "./f35";
+import Carrier from './carrier';
+import F16 from './f16';
+import F35 from './f35';
 
 const a1 = new F16();
 const a2 = new F35();
