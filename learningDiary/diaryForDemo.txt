@@ -1,6 +1,7 @@
 This diary's purpose is to help me remember what happens during each week in order for my demos to be better documented.
 This diary starts at Week 4 of the Foundation phase. 
 
+WEEK 4
 03.08.2020 -- Monday/Hétfő: TRAINING + DOJO
 Before noon, we had a training about presentations. I enjoyed it a lot.
 The main things I got out from it: 
@@ -35,3 +36,16 @@ I coded everything OOP style.
 
 07.08.2020 -- Friday/Penték: TODO APP and demos
 I worked on my Demo in the morning, I think I'm starting to understand what it is supposed to be.
+The demo went well, unfortunately I couldn't get any other work done because my computer was very slow.
+
+WEEK 5
+10.08.2020 -- Monday/Hétfő: DOJO
+Today we had a DOJO about Unit testing. The tasks were quite challenging but fun.
+We worked in teams which doesn't happen very often so I enjoyed that a lot. Especially since
+we were able to pick our pairs. I also reviewed some exercises from the trial exam for the exam on friday.
+It was a good day overall, I really feel much more confident about testing now.
+
+11.08.2020 -- Tueseday/Kedd:
+12.08.2020 -- Wednesday/Szerda:
+13.08.2020 -- Thursday/Csütörtök:
+14.08.2020 -- Friday/Penték:
