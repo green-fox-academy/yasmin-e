@@ -45,7 +45,15 @@ We worked in teams which doesn't happen very often so I enjoyed that a lot. Espe
 we were able to pick our pairs. I also reviewed some exercises from the trial exam for the exam on friday.
 It was a good day overall, I really feel much more confident about testing now.
 
-11.08.2020 -- Tueseday/Kedd:
-12.08.2020 -- Wednesday/Szerda:
+11.08.2020 -- Tueseday/Kedd: WANDERER APP
+Today we started the Wanderer App. I did not dive into the coding straight away, I was way more concerned with
+the overall architecture. I spent most of the day making a plan and setting up my classes since I decided to do it
+in an OOP way. I managed to finish 2.5 tasks which is not huge but the skeleton is ready at least.
+
+12.08.2020 -- Wednesday/Szerda: REVIEW
+Today we had the choice between continue working on our app or review for Friday's exam, I chose to do that instead.
+I reviewed my trial exam and tried out an example exam. I feel good overall, but I really want to get a perfect grade
+so I'm pushing myself and working on a no panick sheet. 
+
 13.08.2020 -- Thursday/Csütörtök:
 14.08.2020 -- Friday/Penték:
