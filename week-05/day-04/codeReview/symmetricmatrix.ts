@@ -25,7 +25,7 @@ Example 2:
 Output:
 
 false   */
-const matrix1: number[][] = [
+/*  const matrix1: number[][] = [
   [1, 0, 1],
   [0, 2, 2],
   [1, 2, 5],
@@ -40,18 +40,14 @@ const matrix3: number[][] = [
   [0, 2, 2, 8],
   [1, 2, 5, 8],
   [1, 2, 5, 8],
-];
-console.log();
-function isSymmetric(nxnMatrix: number[][]): boolean {
+];  */
+export default function isSymmetric(nxnMatrix: number[][]): boolean {
   for (let i = 0; i < nxnMatrix.length; i += 1) {
-    for (let j = 0; j < nxnMatrix.length; j += 1) {
-      if (nxnMatrix[i][j + (nxnMatrix.length - 1)] !== nxnMatrix[i + (nxnMatrix.length - 1)][j]) {
+    for (let j = 0; j < i; j += 1) {
+      if (nxnMatrix[j][i] !== nxnMatrix[i][j]) {
         return false;
       }
-      return true;
     }
   }
+  return true;
 }
-console.log(isSymmetric(matrix1));
-console.log(isSymmetric(matrix2));
-console.log(isSymmetric(matrix3));

@@ -1,22 +1,14 @@
 import fs from 'fs';
 
 function getMostCommonChars(filename: string) {
-  const inputArr = fs.readFileSync(filename, 'utf-8').toLocaleLowerCase().split('');
-  const alphabetArr = 'abcdefghijklmnopqrstuvwxyz'.split('');
-
-  const lettersArr = inputArr.filter((value) => {
-    if (alphabetArr.includes(value)) {
-      return value;
-    }
-    return null;
-  }).sort();
+  const inputArr = fs.readFileSync(filename, 'utf-8').toLocaleLowerCase().split('').sort();
 
   const charOccurences = {};
-  for (let i = 0; i < lettersArr.length; i += 1) {
-    if (!charOccurences[lettersArr[i]]) {
-      charOccurences[lettersArr[i]] = 0;
+  for (let i = 0; i < inputArr.length; i += 1) {
+    if (!charOccurences[inputArr[i]]) {
+      charOccurences[inputArr[i]] = 0;
     }
-    charOccurences[lettersArr[i]] += 1;
+    charOccurences[inputArr[i]] += 1;
   }
 
   const entries = Object.entries(charOccurences);
