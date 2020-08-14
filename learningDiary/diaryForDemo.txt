@@ -55,5 +55,9 @@ Today we had the choice between continue working on our app or review for Friday
 I reviewed my trial exam and tried out an example exam. I feel good overall, but I really want to get a perfect grade
 so I'm pushing myself and working on a no panick sheet. 
 
-13.08.2020 -- Thursday/Csütörtök:
-14.08.2020 -- Friday/Penték:
+13.08.2020 -- Thursday/Csütörtök: REVIEW
+Today I reviewed as well. It was pretty great. I focused on my weaknesses (algorithmic exercises) and made some major
+improvments. I'm slowly transitioning from functional programming solutions (with nested loops mostly) to oop solutions
+using built-in methods and it's actually much easier for me to understand in this manner. 
+
+14.08.2020 -- Friday/Penték: EXAM
