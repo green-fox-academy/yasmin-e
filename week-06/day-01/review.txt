@@ -4,3 +4,9 @@ CSS LAYOUT REVIEW
 box-sizing: content-box; VS box-sizing: border-box;
 content-box = content size + padding + border. 
 border-box = content size only. the padding and border are incorporated in the value of the content. 
+
+-- DISPLAY -- 
+block: div, p, all h's, blockquote. Stacked from top to bottom.
+inline: a, code, etc. Stacked from left to right.
+inline-block: Stacks from left to right if there's space and wraps when space shrinks. 
+none: Hides the elements. 
