@@ -96,7 +96,6 @@ body{
 .articles{
  display: flex;
  flex-flow: row;
- height: 100%;
  width: 100%;
 }
 
