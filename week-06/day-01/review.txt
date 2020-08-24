@@ -1,0 +1,6 @@
+CSS LAYOUT REVIEW
+
+-- BOX SIZING --
+box-sizing: content-box; VS box-sizing: border-box;
+content-box = content size + padding + border. 
+border-box = content size only. the padding and border are incorporated in the value of the content. 
