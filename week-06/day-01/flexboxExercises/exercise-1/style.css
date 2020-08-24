@@ -1,7 +1,9 @@
+/* exercise 1.1 */
 .container1 {
  display: flex;
  align-items: center;
  justify-content: flex-start;
+ margin-bottom: 20px;
 }
 
 .item1 {
@@ -9,14 +11,41 @@
  width: 200px;
 }
 
-.green {
- background: rgb(51, 87, 51);
+.green1 {
+ background: rgb(124, 247, 124);
 }
 
-.yellow {
- background: rgb(255, 208, 0);
+.yellow1 {
+ background: rgb(238, 197, 16);
 }
 
-.purple {
- background: rgb(107, 14, 53);
+.purple1 {
+ background: rgb(235, 44, 124);
+}
+/* exercise 1.2 */
+.container2 {
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ margin-bottom: 20px;
+}
+
+.item2 {
+ height: 200px;
+ width: 200px;
+}
+
+.green2 {
+ background: rgb(124, 247, 124);
+ flex-grow: 1;
+}
+
+.yellow2 {
+ background: rgb(238, 197, 16);
+ flex-grow: 2;
+}
+
+.purple2 {
+ background:rgb(235, 44, 124);
+ flex-grow: 1;
 }
