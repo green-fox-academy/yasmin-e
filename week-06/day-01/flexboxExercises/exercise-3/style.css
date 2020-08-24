@@ -19,7 +19,7 @@
  list-style: none;
  width: 50px;
  height: 50px;
- background: turquoise;
+ background: seagreen;
  margin-right: 5px;
 }
 /* exercise 3.2 */
@@ -33,7 +33,7 @@
  padding: 0;
  margin: 0;
  height: 150px;
- background: tomato;
+ background: teal;
  flex-grow: 1;
  display: flex;
  align-items: center;
@@ -44,5 +44,30 @@
  list-style: none;
  width: 50px;
  height: 50px;
- background: turquoise;
+ background: tan;
+}
+/* exercise 3.3 */
+.box3{
+ width: 400px;
+ margin-bottom: 20px;
+ display: flex;
+}
+
+.container3{
+ padding: 0;
+ margin: 0;
+ height: 150px;
+ background: palevioletred;
+ flex-grow: 1;
+ display: flex;
+ align-items: flex-end;
+ justify-content: flex-end;
+}
+
+.item3{
+ list-style: none;
+ width: 50px;
+ height: 50px;
+ background: teal;
+ margin-left: 5px;
 }
