@@ -1,0 +1,46 @@
+
+.header{
+ top: 0;
+ left: 0;
+ position: fixed;
+ width: 100%;
+ background: palevioletred;
+ justify-self: flex-start;
+ height: 50px;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+
+.navigation-links{
+ background: teal;
+ height: 20px;
+ width: 60px;
+ margin: 10px;
+}
+.main{
+ margin-top: 55px;
+ width: 100%;
+ height: 600px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
+.main-content{
+ height: inherit;
+ min-width: 60%;
+ background: powderblue;
+ flex-grow: 2;
+}
+.sidebar {
+ min-width: 20%;
+ background: lightcoral;
+ flex-grow: 1;
+}
+
+.main footer{
+ width: 100%;
+ height: 30px;
+ background: lightgrey;
+ }
