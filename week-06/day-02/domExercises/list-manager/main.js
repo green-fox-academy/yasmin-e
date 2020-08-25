@@ -67,6 +67,7 @@ remove.onclick = () => {
   if (inputs[i].classList.contains('selected')) {
    inputs[i].classList.remove('selected');
    inputs[i].remove();
+   inputs = document.querySelectorAll('.input');
    inputs[0].classList.add('selected');
    break;
   }
@@ -81,6 +82,7 @@ move.onclick = () => {
    newOutput.setAttribute('class', 'input');
    outputBox.appendChild(newOutput);
    inputs[i].classList.remove('selected');
+   inputs = document.querySelectorAll('.input');
    inputs[0].classList.add('selected');
    break;
   }
