@@ -1,0 +1,103 @@
+- What is the Window object?
+It is the global context of the JavaScript application. The same as the 
+global in node js. All the variables defined defined outside from a method
+will be stored on the global context just like methods provided by the 
+browser. Like console, setTimeout, etc...
+
+- What is the `window.document` object?
+The API provided by the browser to access the document. It represents
+the HTML page.
+
+- What is the `DOM`?
+Document Object Model, the OO representation of the document. It is a
+pecification which is implemented in the browser slight differences can
+occur so try to use only standard methods.
+
+- Is the `DOM` part of the JavaScript?
+Nope it is an extension, a tool.
+
+- What is the difference between `Node` and `Element`?
+Inheritance, Element extends Node. For example each white space,
+text or comment is a Node but only the visible html elements are the
+Elements
+
+- How can you access elements?
+  - By ID?
+  window.{id}
+  {id}
+  document.getElementById('{id}')
+ 
+  - By class?
+  document.getElementsByClassName('{class-name}')
+  document.querySelectorAll('.{class-name}')
+ 
+  - By tag?
+  document.getElementsByTagName('{tag-name}')
+  document.querySelectorAll('{tag-name}')
+ 
+  - By any css selector?
+   document.querySelector('{css-selector}')
+   document.querySelectorAll('{css-selector}')
+ 
+- What is the difference between `querySelector` and `querySelectorAll`?
+querySelector returns the first matching element
+querySelectorAll returns all matching elements in a NodeList
+
+- What's the difference between `querySelectorAll('.class')` and
+`getElementsByClassName('class')`
+ByClassName and byTagName returns a living collection which means the list
+will be updated if the dom changes. QuerySelectorAll returns a static list. 
+
+- How can you create a new Element?
+document.createElement('tagName')
+
+- How can you append an Element to the DOM?
+element.appendChild(Elemen
+
+- How can you move an element in the DOM?
+newParent.appendChild(Element);
+The browser will detach it from the previous parent element.
+
+- How can you remove an Element from the DOM?
+Element.remove
+
+- How can you change the text content of an Element?
+By assigning a string value to the textContent/innerText/innerHTML property.
+Or
+Appending a textNode to the element (appendChild(document.createTextNode()))
+
+- Whats the difference between `innerText`, `textContent` and `innerHTML`?
+The browser parses the innerHTML, it takes time and resource.
+InnerText is aware of the rendered appearance of text,
+while textContent is not.
+
+- How can you set/get an attribute?
+getAttribute()
+setAttribute()
+toggleAttribute()
+
+- How can you add custom attributes to an Element?
+custom attributes uses the 'data-' prefix
+also they can be accessed through the Element.dataset property
+
+- How can you modify an Element's style?
+With the style property but you need to use camelCase CSS properties
+Also it is possible to modify inline css with setAttribute()
+
+- How can you add a new `class` to an Element?
+You can extend the className property like Element.className += 'new-class';
+Or through the classList property: Element.classList.add('new-class')
+
+- What is the difference between the `className` and `classList` property?
+The className is a string which contains all the classes separated with a
+space meanwhile the classList is a DOMTokenList which is a kind of array
+with useful methods like contains, toggle, add, remove.
+
+- What does the `classList.toggle` used for?
+You can simple toggle a class on an Element without being aware of the
+current state. It is useful if you have a dropdown menu and you want to
+change its state on a click event.
+
+- What is the `onclick` property used for?
+You can invoke a javascript method if an element is clicked this can be done
+through the onclick property
