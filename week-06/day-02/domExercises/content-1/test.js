@@ -1,6 +1,11 @@
 let animals = document.querySelector('.animals');
-
 let paragraphs = document.querySelectorAll('p');
+
 paragraphs.forEach((p) => {
- p.innerHTML = animals.innerHTML;
+ p.append(' '.concat(animals.textContent));
+});
+
+paragraphs.forEach((p) => {
+ p.append(' ');
+ p.innerHTML += animals.innerHTML;
 });
