@@ -10,5 +10,8 @@ app.listen(port, () => {
 
 app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
-  res.render('home');
+  res.render('home', {
+    title: 'Things to do today:',
+    todos: ['kiss Mimi', 'buy pink turtleneck', 'cook a green curry'],
+  });
 });
