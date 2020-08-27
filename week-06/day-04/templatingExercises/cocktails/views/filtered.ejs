@@ -13,7 +13,7 @@
   <div class='table'>
    <div class ='col1'>
     <h2>Name</h2>
-  <% cocktails.forEach(function(cocktail){ %>
+  <% cocktails.filter((cocktail) => cocktail.contains.join(' ,').includes(type)).forEach(function(cocktail){ %>
      <p class='name'> 
        <%= cocktail.name %> <% if (!cocktail.isAlcoholic) {%><%= noAlcohol %><% } %>
      </br>
@@ -23,7 +23,7 @@
    </div>
    <div class='col2'>
     <h2>Price</h2>
-    <% cocktails.forEach(function(cocktail){ %>
+    <% cocktails.filter((cocktail) => cocktail.contains.join(' ,').includes(type)).forEach(function(cocktail){ %>
      <p class='price'> <%= cocktail.price %> </p>
    <% }) %>
    </div>
