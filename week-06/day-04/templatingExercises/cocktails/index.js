@@ -69,3 +69,4 @@ const cocktails = [
   },
 ];
 
+const alcoholList = ['gin', 'vodka', 'rum', 'tequila'];
