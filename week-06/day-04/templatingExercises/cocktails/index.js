@@ -8,6 +8,7 @@ app.set('view engine', 'ejs');
 app.listen(port, () => {
   console.log(`connected through port ${port}`);
 });
+app.use('/static', express.static('static'));
 
 app.get('/', (req, res) => {
   res.render('home', {
