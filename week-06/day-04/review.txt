@@ -1,0 +1,48 @@
+- Client, Server
+A server is the PC (the machine) that provides all the possible answers a certain web page can give, like a store front with all the items. A server does not store the data, it's in the DB. The server connects to the DB and gets the corresponding item or response. It could also connect to the HTML instead of the DB depending on the request.
+
+A client can be the browser or a machine or even the fridge in your house. It's just the thing that sends the request to the server. 
+
+- IP, URL, Port
+Address comprehensible by the computer to locate servers.
+
+URL is user-friendly address. 
+
+Port are access points of the same IP address. It allows different services to connect to the same IP. Every IP address has loads of ports. 
+
+HOW TO CREATE A SEVER
+Create a Project folder
+Npm init
+Npm install express
+Npm install nodemon (refreshes server)
+
+In the package.json
+"Main": "server.js",
+"Scripts":{
+"start":"nodemon server.js"
+}
+
+Create server.js
+>const server = require('express');
+
+>const app = server();
+
+>app.listen(3000, () => {
+  console.log('Server is running through PORT 3000')
+});
+
+>app.get('/', () => {
+  console.log('Hello from the server');
+});
+
+>app.get('/', (req, res) => {
+  res.send('<h1>Hello World<h1>');
+});
+
+
+In CLI: node server.js
+
+In browser: localhost:3000
+
+
+
