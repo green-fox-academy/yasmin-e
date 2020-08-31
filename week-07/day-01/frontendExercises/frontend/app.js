@@ -23,8 +23,32 @@ app.get('/doubling', (req, res) => {
     });
   } else {
     res.json({
-      recieved: data.input,
-      result: data.input * 2,
+      received: Number(data.input),
+      result: Number(data.input) * 2,
+    });
+  }
+});
+
+app.get('/greeter', (req, res) => {
+  const data = req.query;
+  if (data.name && data.title) {
+    res.json({
+      welcome_message: `Oh, hi there ${data.name}, my dear ${data.title}!`,
+    });
+  } else if (data.name) {
+    res.status(400);
+    res.json({
+      error: 'Please provide a title!',
+    });
+  } else if (data.title) {
+    res.status(400);
+    res.json({
+      error: 'Please provide a name!',
+    });
+  } else {
+    res.status(400);
+    res.json({
+      error: 'Please provide a name and a title!',
     });
   }
 });
