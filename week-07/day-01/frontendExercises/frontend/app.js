@@ -14,3 +14,17 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`The server is up and running on ${port}`);
 });
+
+app.get('/doubling', (req, res) => {
+  const data = req.query;
+  if (data.input === undefined) {
+    res.json({
+      error: 'Please provide an input!',
+    });
+  } else {
+    res.json({
+      recieved: data.input,
+      result: data.input * 2,
+    });
+  }
+});
