@@ -1,0 +1,60 @@
+What we know so far: 
+We know how to write JS in the browser (DOM, Events, etc).
+We know how to write JS on the server (Backend API through HTTP).
+We know how to handle Databases (SQL). 
+
+cf. diagram 1
+
+By default, the format of the HTTP request is plain text.
+That's why we need the 'Content-Type' header to tell the server the format we're using. 
+
+Today we will learn how to send requests to the server with JS code instead of HTTP requests. 
+JS code on the backend and on the frontend. 
+
+Why don't we put the script tag at the beginning of HTML code? 
+The browser goes from top to bottom, so we want all HTML already parsed before the script runs since we are referring to HTML elements in the JS code. If not, they will be undefined and the JS code will break.
+
+Sending HTTP requests can be done with JS. 
+The old and OG way: XHR;
+The new way: fetch API;
+
+- XMLHttpRequest
+Let xhr = new XMLHttpRequest();
+
+- request methods
+Get: The server is not allowed to change anything and it doesn't have a body, just gets info. 
+Post: 
+
+- `.open`
+Opening up a new request to the server.
+ex. xhr.open('GET', '/');
+- `.send`
+ex. xhr.send();
+
+KEY TAKEAWAY: the send does not wait for the response, it directly goes to the next line. It's an asynchronous code. 
+
+cf. diagram 2 and 3 
+
+- `.onreadystatechange`
+Ready state is about where we are at with the send. 
+0 unsent
+1 opened
+2 headers_received
+3 loading
+4 done
+
+It's an event that we have to provide with a callback function* because by default onreadystate is an empty method. 
+
+*A callback function is a function we do not call ourselves (no parenthesis), something else calls it.
+
+Ex. Function
+If (xhr.readyState == 4) vs
+If (xhr.readyState == XMLHttpRequest.DONE){
+  console.log('Response: ' + xhr.response);
+  Let body =   JSON.parse(xhr.response);
+  For of = iterates through arrays like (forEach)
+  For in = iterates through the properties of an object (keys)
+}
+The second is better because it's cleaner code, because of the readability. 4 is a magic number in this case and we shouldn't use those.
+
+Form without action or method because we will use JS to send the HTTP request.  

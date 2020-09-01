@@ -52,3 +52,10 @@ app.get('/greeter', (req, res) => {
     });
   }
 });
+
+app.get('/appenda', (req, res) => {
+  console.log(req.query);
+  res.json({
+    ok: 'haha',
+  });
+});
