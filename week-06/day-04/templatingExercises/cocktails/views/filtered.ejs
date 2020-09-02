@@ -17,16 +17,6 @@
      <% } %>
   </div>
   <table class='table'>
-    <thead>
-      <tr>
-        <th>
-          name
-        </th>
-        <th>
-          price
-        </th>
-      </tr>
-    </thead>
   
     <tbody>
     <% for (let cocktail of cocktails) { 
@@ -41,7 +31,9 @@
           </div>
         </td>
         <td>
-          <%= cocktail.price %> Ft
+          <div class='cocktail-price'>
+            <%= cocktail.price %> Ft
+          </div>
         </td>
       </tr>
       <% }} %>

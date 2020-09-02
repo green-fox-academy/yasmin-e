@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-loop-func */
 const buttons = document.querySelectorAll('button');
 
