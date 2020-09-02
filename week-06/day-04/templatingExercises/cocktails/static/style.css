@@ -34,36 +34,10 @@ h1, h2, p, a, li, ul{
  font-size: 13px;
 }
 
-.table{
- background: coral;
- display: flex;
- justify-content: flex-start;
- align-items: space-between;
-}
-.col1{
- box-sizing: border-box;
- flex: 2;
-}
-.col2{
- box-sizing: border-box;
- flex: 1;
-}
 h2{
  box-sizing: border-box;
  margin: 20px;
  text-transform: uppercase;
  text-align: center;
  font-size: 14px;
-}
-
-.price {
- box-sizing: border-box;
- text-align: center;
- padding: 0 30px;
- margin-bottom: 50px; 
-}
-.name {
- box-sizing: border-box;
- padding: 0 30px;
- margin-bottom: 20px; 
 }

@@ -10,24 +10,40 @@
    <div class='menu'><% alcoholList.forEach(function(alcohol){ %>
     <p class='menu-item'> <%= alcohol %> </p>
   <% }) %></div>
-  <div class='table'>
-   <div class ='col1'>
-    <h2>Name</h2>
-  <% cocktails.forEach(function(cocktail){ %>
-     <p class='name'> 
-       <%= cocktail.name %> <% if (!cocktail.isAlcoholic) {%><%= noAlcohol %><% } %>
-     </br>
-       <%= cocktail.contains.join(', ') %>  
-     </p>
-   <% }) %>
-   </div>
-   <div class='col2'>
-    <h2>Price</h2>
-    <% cocktails.forEach(function(cocktail){ %>
-     <p class='price'> <%= cocktail.price %> </p>
-   <% }) %>
-   </div>
-   </div>
+  <table class='table'>
+
+
+  <thead>
+    <tr>
+      <th>
+        name
+      </th>
+      <th>
+        price
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  <% for (let cocktail of cocktails) { %>
+    <tr>
+      <td>
+        <div class='cocktail-name'>
+          <%= cocktail.name %>
+        </div>
+        <div class='cocktail-ingredients'>
+          <%= cocktail.contains.join('') %>
+        </div>
+      </td>
+      <td>
+        <%= cocktail.price %> Ft
+      </td>
+    </tr>
+    <% } %>
+
+  </tbody>
+  </table>
  </div>
  </body>
 </html>
