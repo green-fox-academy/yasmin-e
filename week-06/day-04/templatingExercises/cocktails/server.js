@@ -1,5 +1,8 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const express = require('express');
+const mystuff = require('./mystuff');
+
+console.log(mystuff);
 
 const app = express();
 const port = 3000;
@@ -73,7 +76,7 @@ app.get('/', (req, res) => {
           isAlcoholic: false,
         },
       ],
-      alcoholList: ['all', 'gin', 'vodka', 'rum', 'tequila'],
+      alcoholList: ['gin', 'vodka', 'rum', 'tequila'],
     });
   } else {
     res.render('filtered', {
@@ -135,7 +138,7 @@ app.get('/', (req, res) => {
           isAlcoholic: false,
         },
       ],
-      alcoholList: ['all', 'gin', 'vodka', 'rum', 'tequila'],
+      alcoholList: ['gin', 'vodka', 'rum', 'tequila'],
     });
   }
 });

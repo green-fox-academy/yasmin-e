@@ -5,20 +5,14 @@
   <title><%= title %></title>
  </head>
  <body>
-  <div class='wrapper'> 
+  <div class='wrapper'>
    <h1>
      <%= title %>
     </h1>
-   <div class='menu'>
-     <% for (let alcohol of alcoholList) { %>
-    <button class='menu-item'>
-      <%= alcohol %>
-    </button>
-    <% } %>
-</div>
+  <%- include('menu.ejs') %>
 
   <table class='table'>
-  
+
 
   <tbody>
   <% for (let cocktail of cocktails) { %>

@@ -1,0 +1,8 @@
+<div class='menu'>
+    <button class='menu-item'>All</button>
+    <% for (let alcohol of alcoholList) { %>
+        <button class='menu-item alcohol' value="<%= alcohol %>">
+            <%= alcohol %>
+        </button>
+    <% } %>
+</div>
