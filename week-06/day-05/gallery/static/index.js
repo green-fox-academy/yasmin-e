@@ -1,10 +1,6 @@
-const rightButton = document.querySelectorAll('button')[1];
-console.log(rightButton);
-
-const img = document.querySelectorAll('img')[1];
-console.log(img);
+const rightButton = document.getElementById('rightButton');
+const mainImg = document.getElementById('mainImg');
 
 rightButton.onclick = () => {
-
+    window.location.href = "/?src=" + mainImg.dataset.nextPath;
 };
-console.log(imgIndex);

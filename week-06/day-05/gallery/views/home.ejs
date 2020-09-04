@@ -3,8 +3,8 @@
  <head>
   <meta charset="utf-8">
   <title>Sunset Gallery</title>
-  <link href="../static/style.css" rel="stylesheet" type="text/css"> 
-  
+  <link href="../static/style.css" rel="stylesheet" type="text/css">
+
  </head>
  <body>
   <div class="main">
@@ -13,8 +13,14 @@
        <img src="../static/arrow.svg">
       </div>
       </button>
-   <img class="mainImg" src="../static/imgs/<%= imgs[imgIndex].src %>" alt="<%= imgs[imgIndex].name %>" />
-   <button class="rightButton">
+   <img class="mainImg"
+        id="mainImg"
+        src="<%= imgFolder + imgs[imgIndex].src %>"
+        alt="<%= imgs[imgIndex].name %>"
+        data-next-path="<%= imgs[nextImageIndex].src %>"
+        data-previous-path=""
+   />
+   <button class="rightButton" id="rightButton">
     <div class="rightArrow">
      <img src="../static/arrow.svg">
     </div>
@@ -29,7 +35,7 @@
   <div class="thumb">
    <% for (let img of imgs) { %>
     <a href="/?src=<%= img.src %>">
-    <img class="thumbImg" src="../static/imgs/<%= img.src %>" alt="<%= img.caption %>">
+    <img class="thumbImg" src="<%= imgFolder + img.src %>" alt="<%= img.caption %>">
     </a>
     <% } %>
   </div>

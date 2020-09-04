@@ -26,7 +26,6 @@ const captions = [
 ];
 const imgFolder = 'static/imgs/';
 const imgs = [];
-module.exports = { imgs };
 
 fs.readdir(imgFolder, (err, files) => {
   files.forEach((file, index) => {
@@ -34,7 +33,7 @@ fs.readdir(imgFolder, (err, files) => {
       imgs.push({
         name: `Sunset number ${index}`,
         src: `${file}`,
-        caption: `${captions[index - 1]}`,
+        caption: `${captions[index]}`,
       });
     }
   });
@@ -46,15 +45,33 @@ module.exports = { imgIndex };
 app.get('/', (req, res) => {
   const mainImg = { src: req.query.src };
   if (mainImg.src !== undefined) {
-    imgIndex = imgs.map((file, index) => {
+    imgs.forEach((file, index) => {
       if (file.src === mainImg.src) {
-        return index;
+        imgIndex = index
       }
-    }).filter((file) => file !== undefined);
+    });
   } else {
     imgIndex = 0;
   }
+  const nextImageIndex = getNextImageIndex(imgIndex, imgs);
   res.render('home', {
-    imgs, mainImg, imgIndex, captions,
+    imgs,
+    mainImg,
+    imgFolder,
+    imgIndex,
+    captions,
+    nextImageIndex
   });
 });
+
+function getNextImageIndex(currentImageIndex, imgs){
+  const maxIndex = imgs.length - 1;
+  let nextImageIndex = 0;
+  let possibleNextImageIndex = currentImageIndex + 1;
+
+  if (possibleNextImageIndex <= maxIndex) {
+    nextImageIndex = possibleNextImageIndex;
+  }
+
+  return nextImageIndex;
+}
