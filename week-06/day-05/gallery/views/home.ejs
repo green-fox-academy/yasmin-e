@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>Sunset Gallery</title>
+  <link href="../static/style.css" rel="stylesheet" type="text/css"> 
+  
+ </head>
+ <body>
+  <div class="main">
+    <button class="leftButton">
+      <div class="leftArrow">
+       <img src="../static/arrow.svg">
+      </div>
+      </button>
+   <img class="mainImg" src="../static/imgs/<%= imgs[imgIndex].src %>" alt="<%= imgs[imgIndex].name %>" />
+   <button class="rightButton">
+    <div class="rightArrow">
+     <img src="../static/arrow.svg">
+    </div>
+    </button>
+   <div class="imgCaption">
+     <caption>
+       <%= imgs[imgIndex].caption %>
+      </caption>
+    </div>
+  </div>
+
+  <div class="thumb">
+   <% for (let img of imgs) { %>
+    <a href="/?src=<%= img.src %>">
+    <img class="thumbImg" src="../static/imgs/<%= img.src %>" alt="<%= img.caption %>">
+    </a>
+    <% } %>
+  </div>
+  <script src="../static/index.js"></script>
+ </body>
+</html>
