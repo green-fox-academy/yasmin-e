@@ -40,14 +40,24 @@ fs.readdir(imgFolder, (err, files) => {
 });
 
 let imgIndex = 0;
-module.exports = { imgIndex };
+function getNextImageIndex(currentImageIndex, imgs) {
+  const maxIndex = imgs.length - 1;
+  let nextImageIndex = 0;
+  const possibleNextImageIndex = currentImageIndex + 1;
+
+  if (possibleNextImageIndex <= maxIndex) {
+    nextImageIndex = possibleNextImageIndex;
+  }
+
+  return nextImageIndex;
+}
 
 app.get('/', (req, res) => {
   const mainImg = { src: req.query.src };
   if (mainImg.src !== undefined) {
     imgs.forEach((file, index) => {
       if (file.src === mainImg.src) {
-        imgIndex = index
+        imgIndex = index;
       }
     });
   } else {
@@ -60,18 +70,6 @@ app.get('/', (req, res) => {
     imgFolder,
     imgIndex,
     captions,
-    nextImageIndex
+    nextImageIndex,
   });
 });
-
-function getNextImageIndex(currentImageIndex, imgs){
-  const maxIndex = imgs.length - 1;
-  let nextImageIndex = 0;
-  let possibleNextImageIndex = currentImageIndex + 1;
-
-  if (possibleNextImageIndex <= maxIndex) {
-    nextImageIndex = possibleNextImageIndex;
-  }
-
-  return nextImageIndex;
-}
