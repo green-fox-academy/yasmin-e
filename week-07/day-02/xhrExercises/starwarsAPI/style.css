@@ -1,0 +1,26 @@
+.main{
+ box-sizing: border-box;
+ background: gold;
+ max-width: 500px;
+ margin: 0 auto;
+ padding: 0;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.lists{
+ box-sizing: border-box;
+ min-width: 100%;
+}
+
+#movie-button{
+ background: transparent;
+ box-shadow: 0px 0px 0px transparent;
+ border: 0px solid transparent;
+ text-shadow: 0px 0px 0px transparent;
+}
+
+#movie-button:hover{
+ font-weight: bold;
+}
