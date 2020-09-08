@@ -1,6 +1,3 @@
-/* eslint-disable no-use-before-define */
-/* eslint-disable no-undef */
-
 //  Giphy API KEY: HVwvhtyWjGipQRcF4ZJMGzcA3lcrJkB4
 const xhr = new XMLHttpRequest();
 xhr.onreadystatechange = handleReadyStateChanged;
