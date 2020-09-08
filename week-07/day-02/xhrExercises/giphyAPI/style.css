@@ -1,0 +1,10 @@
+.gifs{
+ box-sizing: border-box;
+ margin: 0 auto;
+ padding: 10px;
+ background: hotpink;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ max-width: 500px;
+}
