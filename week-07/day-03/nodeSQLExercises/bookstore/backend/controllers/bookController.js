@@ -1,6 +1,5 @@
 const express = require('express');
 const conn = require('../database');
-const { route } = require('../router');
 
 const router = express.Router();
 
@@ -37,6 +36,21 @@ router.get('/', (req, res) => {
       res.sendStatus(500);
       return null;
     }
-    res.json(result);
+    return res.json(result);
   });
 });
+
+router.get('/category', (req, res) => {
+  const sqlQuery = 'SELECT cate_descrip as category FROM category';
+
+  conn.query(sqlQuery, (error, result) => {
+    if (error) {
+      console.error(error.sqlMessage);
+      res.sendStatus(500);
+      return null;
+    }
+    return res.json(result);
+  });
+});
+
+module.exports = router;
