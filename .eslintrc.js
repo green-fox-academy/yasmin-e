@@ -1,31 +1,23 @@
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended', 'airbnb-base'],
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'prettier'],
-  settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts'],
-    },
-    'import/resolver': {
-      typescript: {},
-    },
+  extends: ['airbnb-base'],
+  plugins: ['prettier'],
+  env: {
+    browser: true,
+    node: true,
   },
   rules: {
-    'import/no-extraneous-dependencies': [
-      2,
-      { devDependencies: ['**/test.ts'] },
-    ],
-    '@typescript-eslint/indent': [2, 2],
-    'no-console': 'off',
+    'linebreak-style': 0,
     'import/extensions': [
       'error',
       'ignorePackages',
       {
         js: 'never',
         jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
       },
     ],
+    'no-use-before-define': 'off',
+    'no-console': 'off',
+    'no-plusplus': 'off',
+    'no-unused-vars': ['error', { vars: 'local', args: 'none' }],
   },
 };
