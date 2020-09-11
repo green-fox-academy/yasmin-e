@@ -24,13 +24,13 @@ router.get('/posts', (req, res) => {
 
 //  add a new post endpoint
 router.post('/posts', (req, res) => {
+  res.header('Content-Type', 'application/json');
   if (req.accepts('application/json') === false) {
     res.status(406);
     console.error('Request not acceptable');
   }
 
   const newPost = req.body;
-  console.log(newPost.url);
 
   const insertNewPost = 'INSERT INTO posts (title, url) VALUES (?, ?);';
   const getNewPost = 'SELECT * FROM posts WHERE posts.title=? AND posts.url=?;';
@@ -47,6 +47,34 @@ router.post('/posts', (req, res) => {
         res.sendStatus(500);
       }
       res.status(200).json(posted);
+    });
+  });
+});
+
+//  upvote a post endpoint
+router.put('/posts/:id/upvote', (req, res) => {
+  res.header('Content-Type', 'application/json');
+  if (req.accepts('application/json') === false) {
+    res.status(406);
+    console.error('Request not acceptable');
+  }
+
+  const postId = req.params.id;
+  const upvotePost = 'UPDATE posts SET score = score + 1 WHERE id = ?;';
+  const getPost = 'SELECT * FROM posts WHERE id = ?;';
+
+  conn.query(upvotePost, [postId], (err1) => {
+    if (err1) {
+      console.error(err1.sqlMessage);
+      res.sendStatus(500);
+    }
+
+    conn.query(getPost, [postId], (err2, result) => {
+      if (err2) {
+        console.error(err2.sqlMessage);
+        res.sendStatus(500);
+      }
+      res.status(200).json(result);
     });
   });
 });
