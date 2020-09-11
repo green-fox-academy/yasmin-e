@@ -79,4 +79,32 @@ router.put('/posts/:id/upvote', (req, res) => {
   });
 });
 
+//  downvote a post endpoint
+router.put('/posts/:id/downvote', (req, res) => {
+  res.header('Content-Type', 'application/json');
+  if (req.accepts('application/json') === false) {
+    res.status(406);
+    console.error('Request not acceptable');
+  }
+
+  const postId = req.params.id;
+  const downvotePost = 'UPDATE posts SET score = score - 1 WHERE id = ?;';
+  const getPost = 'SELECT * FROM posts WHERE id = ?;';
+
+  conn.query(downvotePost, [postId], (err1) => {
+    if (err1) {
+      console.error(err1.sqlMessage);
+      res.sendStatus(500);
+    }
+
+    conn.query(getPost, [postId], (err2, result) => {
+      if (err2) {
+        console.error(err2.sqlMessage);
+        res.sendStatus(500);
+      }
+      res.status(200).json(result);
+    });
+  });
+});
+
 module.exports = router;
