@@ -7,22 +7,22 @@ router.get('/', (req, res) => {
   console.log('working');
 });
 
-//  list posts endpoint
+//  list all posts
 router.get('/posts', (req, res) => {
   res.header('Content-Type', 'application/json');
 
-  const getPosts = 'SELECT * FROM posts';
+  const getPosts = 'SELECT id, title, url, DATE_FORMAT(publication_time, \'%Y-%m-%d\') date, DATE_FORMAT(publication_time, \'%H:%i:%s\') time, score FROM posts;';
 
   conn.query(getPosts, (err, posts) => {
     if (err) {
       console.error(err.sqlMessage);
       res.sendStatus(500); // internal server error
       return null;
-    } return res.status(200).json({ posts });
+    } return res.status(200).json({ posts }); 
   });
 });
 
-//  add a new post endpoint
+//  add a new post
 router.post('/posts', (req, res) => {
   res.header('Content-Type', 'application/json');
   if (req.accepts('application/json') === false) {
@@ -51,7 +51,7 @@ router.post('/posts', (req, res) => {
   });
 });
 
-//  upvote a post endpoint
+//  upvote a post
 router.put('/posts/:id/upvote', (req, res) => {
   res.header('Content-Type', 'application/json');
   if (req.accepts('application/json') === false) {
@@ -79,7 +79,7 @@ router.put('/posts/:id/upvote', (req, res) => {
   });
 });
 
-//  downvote a post endpoint
+//  downvote a post
 router.put('/posts/:id/downvote', (req, res) => {
   res.header('Content-Type', 'application/json');
   if (req.accepts('application/json') === false) {
