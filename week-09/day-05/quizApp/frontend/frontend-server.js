@@ -12,9 +12,5 @@ app.listen(port, () => {
 });
 
 app.get('/game', (req, res) => {
-  res.sendFile(path.join(__dirname, './static/html', 'game.html'));
-});
-
-app.get('/questions', (req, res) => {
-  res.sendFile(path.join(__dirname, './static/html', 'questions.html'));
+  res.sendFile(path.join(__dirname, './static/index.html'));
 });

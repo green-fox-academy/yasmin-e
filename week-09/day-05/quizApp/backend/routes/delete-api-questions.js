@@ -7,6 +7,7 @@ const deleteApiQuestions = express.Router();
 deleteApiQuestions.delete('/', async (req, res) => {
   try {
     const { id } = req.body;
+    console.log(id);
     const deleteQuestionSQL = 'DELETE FROM questions WHERE id=?;';
     const deleteQuestion = await query(deleteQuestionSQL, id);
 
