@@ -4,7 +4,8 @@
   "description": "<h1>hellÜ i'm yasmine</h1>\r <p>I'm using this space to track and share my progress as I flourish into a Junior Web Developer. Feel free to look around.</p>",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "@types/node": "^14.0.26",
