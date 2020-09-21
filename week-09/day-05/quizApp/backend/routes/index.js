@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
 
 router.use('/api/game', getApiGame);
 router.use('/api/questions', getApiQuestions);
-router.use('api/questions', postApiQuestions);
-router.use('api/questions/:id', deleteApiQuestions);
+router.use('/api/questions', postApiQuestions);
+router.use('/api/questions', deleteApiQuestions);
 
 module.exports = router;

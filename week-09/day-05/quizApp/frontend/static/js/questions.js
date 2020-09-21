@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 const backendUrl = 'http://localhost:3000';
 const getQuestionsUrl = `${backendUrl}/api/questions`;
 
@@ -8,11 +9,11 @@ function manageQuestions() {
     .then((response) => response.json())
     .then((myJSON) => {
       console.log(myJSON);
-      displayQuestions(myJSON);
+      displayQuestionsAndButton(myJSON);
     });
 }
 
-function displayQuestions(questionsArr) {
+function displayQuestionsAndButton(questionsArr) {
   const questionsDiv = document.querySelector('.questions-manager');
   questionsArr.forEach((question) => {
     const questionDiv = document.createElement('div');
@@ -32,11 +33,14 @@ function displayQuestions(questionsArr) {
 }
 
 function handleDeleteButton(deleteButton, id, questionDiv) {
-  const deleteMethod = { method: 'DELETE' };
+  const deleteMethod = {
+    method: 'DELETE',
+    headers: { 'Content-type': 'application/json' },
+  };
   deleteButton.addEventListener('click', () => {
-    fetch(`${backendUrl}/api/questions/:${id}`, deleteMethod)
+    fetch(`${backendUrl}/api/questions/${id}`, deleteMethod)
       .then((response) => response.json())
-      .then((response) => console.log(response));
+      .then(console.log);
     clearElement(questionDiv);
   });
 }
