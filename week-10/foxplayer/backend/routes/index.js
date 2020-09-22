@@ -4,6 +4,7 @@ const postPlaylists = require('./post-playlists');
 const deletePlaylists = require('./delete-playlists');
 const getTracks = require('./get-tracks');
 const postTracks = require('./post-tracks');
+const deleteTracks = require('./delete-tracks');
 
 const router = express.Router();
 
@@ -16,5 +17,6 @@ router.use('/playlists', postPlaylists);
 router.use('/playlists', deletePlaylists);
 router.use('/playlist-tracks', getTracks);
 router.use('/playlist-tracks', postTracks);
+router.use('/playlist-tracks', deleteTracks);
 
 module.exports = router;
