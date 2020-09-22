@@ -16,10 +16,11 @@ img {
 
 .app {
  border: inset 5px forestgreen;
- margin: 3%;
+ margin: 3% auto;
  display: grid;
  grid-auto-rows: auto;
- max-width: 1000px;
+ width: 700px;
+ height: auto;
  background-color: #f6f6f6;
  grid-template-columns: 1fr 1fr;
  grid-template-rows: 150px 300px 50px;
