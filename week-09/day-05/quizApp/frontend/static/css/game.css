@@ -6,6 +6,7 @@
 
 html, body {
  background: #F1F6F1;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -16,38 +17,43 @@ html, body {
  height: 550px;
  display: flex;
  flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
 }
 
 .score, .link{
  margin: 0 auto;
- font-family: Arial, Helvetica, sans-serif;
  text-align: center;
  font-size: 13px;
+ min-width: 100%;
 }
 
 .game { 
- width: 100%;
- height: 80%;
+ width: 80%;
+ height: 70%;
+ margin: 5%;
+ padding: 5%;
  display: flex;
  flex-wrap: wrap;
  align-items: stretch;
+ justify-content: center;
  background-color: white;
  border: 5px outset #7CB181;
+ border-radius: 10%;
 }
 
 .question { 
  box-sizing: border-box;
- margin: 0;
  padding: 3%;
- min-width: 100%;
+ min-width: 60%;
  text-align: center;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 14px;
- line-height: 170%;
+ line-height: 160%;
+ align-self: center;
 }
 
 .answers {
- margin: 0 auto;
  min-width: 100%;
  display: flex;
  flex-wrap: wrap;
@@ -56,7 +62,7 @@ html, body {
 }
 
 .answer-button {
- margin: 2%;
- padding: 3%;
- min-width: 90%;
+ padding: 5%;
+ min-width: 60%;
+ border: none;
 }

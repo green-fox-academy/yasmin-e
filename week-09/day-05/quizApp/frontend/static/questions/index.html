@@ -5,8 +5,41 @@
   <title>Quiz App</title>
  </head>
  <body>
-  <div class='questions-manager'></div>
-  <div class='questions-creator'></div>
+  <div class='questions-manager'>
+   <h1>Manage questions</h1>
+  </div>
+  <div class='questions-creator'>
+   <h1>Create a new question</h1>
+   <form id='create-question' method='post'>
+    <input class='question-input' type='text' name='question' placeholder='Type your question here'>
+    <h2>Answers</h2>
+    <div class='answers'> 
+      <label for='answer1'>#1</label>
+      <input type='text' class='answers' id='answer1' placeholder='Type your answer here'>
+      <input type='radio' name='correct-answer' value='1'>
+      <hr>
+    </div>
+    <div class='answers'>
+      <label for='answer2'>#2</label>
+      <input type='text' class='answers' id='answer2' placeholder='Type your answer here'>
+      <input type='radio' name='correct-answer' value='2'>
+      <hr>
+    </div>
+    <div class='answers'>
+      <label for='answer3'>#3</label>
+      <input type='text' class='answers' id='asnwer3' placeholder='Type your answer here'>
+      <input type='radio' name='correct-answer' value='3'>
+      <hr>
+    </div>
+    <div class='answers'>
+      <label for='answer4'>#4</label>
+      <input type='text' class='answers' id='answer4' placeholder='Type your answer here'>
+      <input type='radio' name='correct-answer' value='4'>
+    </div>
+    <button type='submit' id='submit'>SUBMIT</button>
+  </form>
+  </div>
+  <a href='/' class='link'>Go back to the game</a>
   <script src='../js/questions.js'></script>
  </body>
 </html>

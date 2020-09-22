@@ -17,14 +17,16 @@ function displayQuestionsAndButton(questionsArr) {
   const questionsDiv = document.querySelector('.questions-manager');
   questionsArr.forEach((question) => {
     const questionDiv = document.createElement('div');
-    questionDiv.setAttribute('value', `question_id:${question.id}`);
+    questionDiv.setAttribute('class', 'question-div');
 
     const questionEl = document.createElement('p');
     questionEl.textContent = question.question;
+    questionEl.setAttribute('class', 'question');
     questionDiv.appendChild(questionEl);
 
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'delete';
+    deleteButton.setAttribute('class', 'delete-button');
     handleDeleteButton(deleteButton, question.id, questionDiv);
     questionDiv.appendChild(deleteButton);
 

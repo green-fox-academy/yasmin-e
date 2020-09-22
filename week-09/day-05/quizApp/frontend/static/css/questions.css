@@ -9,4 +9,96 @@ html, body {
  margin: 0;
  padding: 0;
  background: #F1F6F1;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+}
+
+.questions-manager {
+ margin: 5% auto;
+ padding: 5%;
+ max-width: 70%;
+ min-width: 40%;
+ height: 550px;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: white;
+ border: 5px outset #7CB181;
+ border-radius: 10%;
+}
+
+.question-div {
+ min-width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: solid 1px gainsboro;
+}
+
+.question { 
+  max-width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.delete-button {
+ max-width: 30%;
+ border: none;
+ background: inherit;
+ cursor: pointer;
+ color: red;
+}
+
+h1, a, h2 {
+  margin: 5% auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  min-width: 100%;
+ }
+
+ .questions-creator {
+  margin: 5% auto;
+  padding: 5%;
+  max-width: 70%;
+  min-width: 40%;
+  background-color: white;
+  border: 5px outset #7CB181;
+  border-radius: 10%;
+ }
+
+ .answers {
+  margin: 5%;
+ }
+
+ .link { 
+  display: block;
+  margin: 0 auto;
+  background: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: forestgreen;
+  font-weight: bold;
+  padding: 5%;
+ }
+
+ input[type='text'] {
+  padding: 2%;
+  margin: 3%;
+  width: 80%;
+ }
+
+#submit {
+ display: block;
+ padding: 3%;
+ margin: 0 auto;
+ background-color: forestgreen;
+ border-style: none;
+ border-bottom: solid 2px rgb(18, 87, 18);
+ color: white;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+
+#submit:hover {
+background-color:rgb(18, 87, 18);
 }
