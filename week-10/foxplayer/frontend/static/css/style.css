@@ -188,6 +188,18 @@ footer img {
  align-items: center;
 }
 
+#progress {
+ width: 50%
+}
+
+form {
+ display: flex;
+ justify-content: space-between;
+}
+
+form label {
+ margin-right: 10px;
+}
 
 ::-webkit-scrollbar {
   width: 2px;
