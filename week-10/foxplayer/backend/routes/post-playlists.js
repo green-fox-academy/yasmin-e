@@ -9,8 +9,8 @@ postPlaylists.post('/', async (req, res) => {
     const playlistName = req.body.playlist;
     await query(addPlaylist, playlistName);
 
-    const getPlaylistsSQL = 'SELECT * FROM playlists;';
-    const playlists = await query(getPlaylistsSQL);
+    const getPlaylists = 'SELECT * FROM playlists;';
+    const playlists = await query(getPlaylists);
 
     res.status(200).json(playlists);
   } catch (err) {
