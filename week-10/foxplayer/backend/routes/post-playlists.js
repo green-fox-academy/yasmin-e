@@ -15,6 +15,7 @@ postPlaylists.post('/', async (req, res) => {
     res.status(200).json(playlists);
   } catch (err) {
     res.sendStatus(500);
+    console.log(err);
   }
 });
 

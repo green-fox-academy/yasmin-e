@@ -9,7 +9,10 @@ deletePlaylists.delete('/:id', (req, res) => {
   const { id } = req.params;
   query(deletePlaylist, id)
     .then(res.status(200).json({ Success: `Playlist with id ${id} deleted` }))
-    .catch(res.status(500).json({ Error: 'Id not present or not enumerable' }));
+    .catch((error) => {
+      res.status(500).json({ Error: 'Id not present or not enumerable' });
+      console.log(error);
+    });
 });
 
 module.exports = deletePlaylists;
