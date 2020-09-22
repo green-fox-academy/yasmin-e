@@ -16,13 +16,13 @@ playButton.addEventListener('click', () => {
   }
 });
 
-const timeUpdate = () => {
+const updateTime = () => {
   player.addEventListener('timeupdate', () => {
     progressBar.setAttribute('value', player.currentTime / player.duration);
   });
 };
 
-timeUpdate();
+updateTime();
 
 volume.addEventListener('change', () => {
   player.volume = volume.value / 100;
