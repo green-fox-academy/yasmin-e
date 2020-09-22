@@ -15,8 +15,8 @@ img {
 }
 
 .app {
+ border: inset 5px forestgreen;
  margin: 3%;
- padding: 0;
  display: grid;
  grid-auto-rows: auto;
  max-width: 1000px;
@@ -58,6 +58,7 @@ header h1 {
  font-weight: 400;
  letter-spacing: 1px;
  font-size: 20px;
+ color: rgb(94, 94, 94);
 }
 
 header h1 #plus {
@@ -78,6 +79,7 @@ header h1 #plus {
  font-weight: normal;
  font-size: 15px;
  display: flex;
+ color: rgb(94, 94, 94);
 }
 
 .playlists div:nth-child(odd) {
@@ -96,16 +98,71 @@ aside {
 .current-title {
  padding: 3%;
  flex: 1 1 0;
- background-color: yellowgreen;
  display: flex;
- font-size: 1rem;
- font-weight: normal;
+ align-items: center;
+}
+
+.titles {
+ width: 90%;
+}
+
+.titles h2 {
+ font-weight: bold;
+ font-size: 17px;
+ letter-spacing: 0.5px;
+ color: rgb(94, 94, 94);
+ padding: 1%;
+ margin: 0;
+}
+
+.titles h3 {
+ font-weight: 400;
+ font-size: 14px;
+ color: rgb(139, 139, 139);
+ padding: 1%;
+}
+
+.icons img {
+ width: 13px;
+ height: 13px;
+ margin: 10%;
+}
+
+.icons {
+ width: 10%;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ align-items: center;
 }
 
 .tracks {
- padding: 3%;
+ overflow-y: scroll;
  flex: 6 6 0;
- background-color: wheat;
+ font-size: 20px;
+ color: #444;
+}
+
+.tracks div:nth-child(odd) {
+ background-color: #ddd;
+}
+
+.track {
+ width: 100%;
+ padding: 4% 6%;
+ font-size: 14px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 400;
+}
+
+.track #number {
+ color: rgb(139, 139, 139);
+}
+
+.track #length {
+ font-weight: 600;
 }
 
 footer {
@@ -116,6 +173,53 @@ footer {
 
 .control-panel {
  padding: 3%;
- background-color: black;
+ background-color: white;
  height: 100%;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #c0c0c0;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #6e6e6e;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
