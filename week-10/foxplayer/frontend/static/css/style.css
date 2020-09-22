@@ -1,0 +1,66 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body, html {
+ display: flex;
+ flex-flow: column;
+ justify-content: center;
+ align-items: center;
+}   
+
+img {
+ width: 20px;
+ height: 20px;
+}
+
+#logo {
+ width: auto;
+ height: auto;
+}
+
+#artwork {
+ width: 150px;
+ height: 150px;
+}
+
+.app {
+ display: grid;
+ grid-auto-rows: auto;
+ width:500px;
+ height: 400px;
+ background-color: darkgray;
+}
+
+header {
+ grid-row:1/3;
+ grid-column: 1/4;
+ background-color: darkorchid;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.playlists {
+ grid-row: 3/8;
+ grid-column: 1/6;
+ background-color: darkturquoise;
+}
+.current-title {
+ grid-row: 1/3;
+ grid-column: 4/11;
+ background-color: yellowgreen;
+}
+
+.tracks {
+ grid-row: 3/8;
+ grid-column: 6/11;
+ background-color: wheat;
+}
+.control-panel {
+ grid-row: 8/9;
+ grid-column: 1/11;
+ background-color: black;
+}
