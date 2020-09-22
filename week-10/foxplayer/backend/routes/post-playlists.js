@@ -5,9 +5,9 @@ const postPlaylists = express.Router();
 
 postPlaylists.post('/', async (req, res) => {
   try {
-    const addPlaylistSQL = 'INSERT INTO playlists (playlist) VALUES(?);';
+    const addPlaylist = 'INSERT INTO playlists (playlist) VALUES(?);';
     const playlistName = req.body.playlist;
-    const addPlaylist = await query(addPlaylistSQL, playlistName);
+    await query(addPlaylist, playlistName);
 
     const getPlaylistsSQL = 'SELECT * FROM playlists;';
     const playlists = await query(getPlaylistsSQL);
