@@ -1,0 +1,56 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ font-size: 12px;
+ font-weight: 300;
+}
+
+.main {
+ background-color: sandybrown;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ width: 400px;
+ border: inset 5px rebeccapurple;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ padding: 3%;
+}
+
+input {
+ border-radius: 0;
+ border: solid 1px gray;
+ margin: 3%;
+ padding: 2%;
+}
+
+label {
+ background-color: rgb(75, 39, 114);
+ color: white;
+ margin: 3%;
+ padding: 2%;
+ text-align: center;
+ width: fit-content;
+}
+
+form #submit {
+ background-color: white;
+ margin: 3%;
+ text-align: center;
+ width: fit-content;
+ border: none;
+}
+
+#response {
+ background-color: white;
+ color: black;
+ margin: 1% auto;
+ padding: 2%;
+ text-align: center;
+ width: 400px;
+}
